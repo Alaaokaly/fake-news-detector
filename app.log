@@ -45,3 +45,45 @@
 2025-05-31 23:02:20,855 - INFO - Input processed - Title: 'A Bugatti car, a first lady an...', Text length: 724 chars.
 2025-05-31 23:02:20,855 - INFO - Model: nb, Vectorizer: count
 2025-05-31 23:11:02,037 - INFO - This should go to the file
+2025-06-01 00:00:43,797 - INFO - This should go to the file
+2025-06-01 00:01:25,730 - INFO - This should go to the file
+2025-06-01 00:20:10,980 - INFO - This should go to the file
+2025-06-01 00:20:14,545 - INFO - This should go to the file
+2025-06-01 00:20:19,528 - INFO - This should go to the file
+2025-06-01 00:20:19,632 - INFO - This should go to the file
+2025-06-01 00:20:29,066 - INFO - Prediction: FAKE with confidence 0.521
+2025-06-01 00:20:29,067 - INFO - Input processed - Title: 'A week of unrest - and a week ...', Text length: 1277 chars.
+2025-06-01 00:20:29,068 - INFO - Model: lr, Vectorizer: tfidf
+2025-06-01 00:20:33,528 - INFO - This should go to the file
+2025-06-01 00:20:34,350 - INFO - This should go to the file
+2025-06-01 00:20:34,425 - INFO - Prediction: FAKE with confidence 0.611
+2025-06-01 00:20:34,425 - INFO - Input processed - Title: 'A week of unrest - and a week ...', Text length: 1277 chars.
+2025-06-01 00:20:34,425 - INFO - Model: nb, Vectorizer: tfidf
+2025-06-01 00:20:38,245 - INFO - This should go to the file
+2025-06-01 00:20:38,916 - INFO - This should go to the file
+2025-06-01 00:20:38,983 - INFO - Prediction: FAKE with confidence 1.000
+2025-06-01 00:20:38,984 - INFO - Input processed - Title: 'A week of unrest - and a week ...', Text length: 1277 chars.
+2025-06-01 00:20:38,984 - INFO - Model: nb, Vectorizer: count
+2025-06-01 00:21:11,957 - INFO - This should go to the file
+2025-06-01 00:21:21,201 - INFO - This should go to the file
+2025-06-01 00:21:24,285 - INFO - This should go to the file
+2025-06-01 00:21:27,994 - INFO - This should go to the file
+2025-06-01 00:21:28,095 - INFO - This should go to the file
+2025-06-01 00:21:28,406 - INFO - Prediction: FAKE with confidence 0.521
+2025-06-01 00:21:28,406 - INFO - Input processed - Title: 'A week of unrest - and a week ...', Text length: 1277 chars.
+2025-06-01 00:21:28,406 - INFO - Model: lr, Vectorizer: tfidf
+2025-06-01 00:21:41,598 - INFO - This should go to the file
+2025-06-01 00:21:42,116 - INFO - Prediction: FAKE with confidence 0.521
+2025-06-01 00:21:42,116 - INFO - Input processed - Title: 'A week of unrest - and a week ...', Text length: 1277 chars.
+2025-06-01 00:21:42,117 - INFO - Model: lr, Vectorizer: tfidf
+2025-06-01 00:22:01,350 - INFO - This should go to the file
+2025-06-01 00:22:01,422 - INFO - Prediction: FAKE with confidence 0.521
+2025-06-01 00:22:01,423 - INFO - Input processed - Title: 'A week of unrest - and a week ...', Text length: 1277 chars.
+2025-06-01 00:22:01,423 - INFO - Model: lr, Vectorizer: tfidf
+2025-06-01 00:22:03,863 - INFO - This should go to the file
+2025-06-01 00:22:05,246 - INFO - This should go to the file
+2025-06-01 00:22:05,896 - INFO - This should go to the file
+2025-06-01 00:22:05,994 - INFO - Prediction: FAKE with confidence 1.000
+2025-06-01 00:22:05,994 - INFO - Input processed - Title: 'A week of unrest - and a week ...', Text length: 1277 chars.
+2025-06-01 00:22:05,995 - INFO - Model: nb, Vectorizer: count
+2025-06-01 00:30:23,253 - INFO - This should go to the file

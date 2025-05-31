@@ -6,6 +6,14 @@ logger = logging.getLogger(__name__)
 if logger.hasHandlers():
     logger.handlers.clear()
 
+
+logger.setLevel(logging.INFO)
+
+stream_handler = logging.StreamHandler()
+stream_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+stream_handler.setFormatter(stream_formatter)
+
+logger.addHandler(stream_handler)
 logger.setLevel(logging.INFO)
 
 file_handler = logging.FileHandler('app.log', mode='a')
