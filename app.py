@@ -2,27 +2,33 @@ import streamlit as st
 from model.predict import predict
 import logging 
 
+# Your existing logger setup
 logger = logging.getLogger(__name__)
 if logger.hasHandlers():
     logger.handlers.clear()
 
-
 logger.setLevel(logging.INFO)
 
+# Console handler (this should show in Streamlit Cloud logs)
 stream_handler = logging.StreamHandler()
 stream_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 stream_handler.setFormatter(stream_formatter)
-
 logger.addHandler(stream_handler)
-logger.setLevel(logging.INFO)
 
-file_handler = logging.FileHandler('app.log', mode='a')
-file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-file_handler.setFormatter(file_formatter)
+# For Streamlit app display
+def log_to_streamlit(message, level="info"):
+    if level == "info":
+        st.info(message)
+    elif level == "warning":
+        st.warning(message)
+    elif level == "error":
+        st.error(message)
+    else:
+        st.write(message)
 
-logger.addHandler(file_handler)  # <== This line is crucial!
-
-logger.info("This should go to the file")
+# Use both
+logger.info("This goes to console/cloud logs")
+log_to_streamlit("This appears in the Streamlit app")
 
 # Set up page
 st.set_page_config(
