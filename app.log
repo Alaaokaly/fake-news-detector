@@ -1,0 +1,47 @@
+2025-05-31 22:59:01,395 - INFO - This should go to the file
+2025-05-31 22:59:06,632 - INFO - This should go to the file
+2025-05-31 22:59:11,597 - INFO - This should go to the file
+2025-05-31 22:59:15,350 - INFO - This should go to the file
+2025-05-31 22:59:15,419 - INFO - This should go to the file
+2025-05-31 22:59:15,727 - INFO - Prediction: FAKE with confidence 0.809
+2025-05-31 22:59:15,727 - INFO - Input processed - Title: ' War ‘tour’, football and graf...', Text length: 1863 chars, Model: lr, Vectorizer: tfidf
+2025-05-31 23:00:10,106 - INFO - This should go to the file
+2025-05-31 23:00:13,291 - INFO - This should go to the file
+2025-05-31 23:00:18,098 - INFO - This should go to the file
+2025-05-31 23:00:23,278 - INFO - This should go to the file
+2025-05-31 23:00:23,382 - INFO - This should go to the file
+2025-05-31 23:00:23,692 - INFO - Prediction: FAKE with confidence 0.809
+2025-05-31 23:00:23,693 - INFO - Input processed - Title: ' War ‘tour’, football and graf...', Text length: 1863 chars.
+2025-05-31 23:00:34,847 - INFO - This should go to the file
+2025-05-31 23:00:34,915 - INFO - Prediction: FAKE with confidence 0.809
+2025-05-31 23:00:34,916 - INFO - Input processed - Title: ' War ‘tour’, football and graf...', Text length: 1863 chars.
+2025-05-31 23:00:51,297 - INFO - This should go to the file
+2025-05-31 23:00:55,089 - INFO - This should go to the file
+2025-05-31 23:01:00,503 - INFO - This should go to the file
+2025-05-31 23:01:04,367 - INFO - This should go to the file
+2025-05-31 23:01:08,190 - INFO - This should go to the file
+2025-05-31 23:01:08,291 - INFO - This should go to the file
+2025-05-31 23:01:08,597 - INFO - Prediction: FAKE with confidence 0.809
+2025-05-31 23:01:08,597 - INFO - Input processed - Title: ' War ‘tour’, football and graf...', Text length: 1863 chars.
+2025-05-31 23:01:08,597 - INFO - Model: lr, Vectorizer: tfidf
+2025-05-31 23:01:20,231 - INFO - This should go to the file
+2025-05-31 23:01:20,294 - INFO - Prediction: FAKE with confidence 0.809
+2025-05-31 23:01:20,294 - INFO - Input processed - Title: ' War ‘tour’, football and graf...', Text length: 1863 chars.
+2025-05-31 23:01:20,295 - INFO - Model: lr, Vectorizer: tfidf
+2025-05-31 23:01:28,552 - INFO - This should go to the file
+2025-05-31 23:01:29,740 - INFO - This should go to the file
+2025-05-31 23:01:29,890 - INFO - Prediction: FAKE with confidence 0.895
+2025-05-31 23:01:29,890 - INFO - Input processed - Title: ' War ‘tour’, football and graf...', Text length: 1863 chars.
+2025-05-31 23:01:29,891 - INFO - Model: nb, Vectorizer: tfidf
+2025-05-31 23:01:33,143 - INFO - This should go to the file
+2025-05-31 23:01:34,126 - INFO - This should go to the file
+2025-05-31 23:01:34,223 - INFO - Prediction: FAKE with confidence 1.000
+2025-05-31 23:01:34,223 - INFO - Input processed - Title: ' War ‘tour’, football and graf...', Text length: 1863 chars.
+2025-05-31 23:01:34,224 - INFO - Model: nb, Vectorizer: count
+2025-05-31 23:02:07,648 - INFO - This should go to the file
+2025-05-31 23:02:20,701 - INFO - This should go to the file
+2025-05-31 23:02:20,796 - INFO - This should go to the file
+2025-05-31 23:02:20,855 - INFO - Prediction: FAKE with confidence 1.000
+2025-05-31 23:02:20,855 - INFO - Input processed - Title: 'A Bugatti car, a first lady an...', Text length: 724 chars.
+2025-05-31 23:02:20,855 - INFO - Model: nb, Vectorizer: count
+2025-05-31 23:11:02,037 - INFO - This should go to the file
